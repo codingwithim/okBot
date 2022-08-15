@@ -1,0 +1,74 @@
+DATE,INPUT,OUTPUT,INTENT,ACTUAL INTENT,TARGET,ACCURACY
+17:08.7,hello,"Hi, awak okay tak?",greetings,greetings,1,1
+17:20.8,hello2,"Hai awak, awak okay?",greetings,greetings,1,1
+17:28.1,hai,"Hai awak, awak okay?",greetings,greetings,1,1
+17:31.8,hi,"Hei, apa khabar?",greetings,greetings,1,1
+17:33.0,hey,"Hei, apa khabar?",greetings,greetings,1,1
+17:33.7,salam,"Hei, apa khabar?",greetings,greetings,1,1
+17:36.3,apa khabar,Adakah awak perlukan sebarang bantuan?,greetings,greetings,1,1
+17:39.4,hello,"Hi, awak okay tak?",greetings,greetings,1,1
+17:42.0,goodbye,Goodbye!,goodbye,goodbye,1,1
+17:46.7,jumpa lagi,Selamat Tinggal,goodbye,goodbye,1,1
+17:49.4,selamat tinggal,Goodbye!,goodbye,goodbye,1,1
+17:51.9,godbye,"Hai, apa khabar?",greetings,goodbye,0,0
+17:54.5,bye2,"Hi, awak okay tak?",greetings,goodbye,0,0
+17:55.7,bye2,"Hai, apa khabar?",greetings,goodbye,0,0
+17:59.5,siapa nama awak?,Awak boleh panggil saya okay bot,name,name,1,1
+18:03.1,nama awak apa?,Awak boleh panggil saya okay bot,name,name,1,1
+18:06.9,siapa nama ni?,okBot,name,name,1,1
+18:10.0,siapa ni>,"Hei, apa khabar?",greetings,name,0,0
+18:12.9,thank you,Sama-sama awak,Thanks,Thanks,1,1
+18:29.0,thanks,Sama-sama awak,Thanks,Thanks,1,1
+18:31.2,ty tau okBot,"Takda masalah awak, saya ada okay!",Thanks,Thanks,1,1
+18:33.6,terima kasih,"Takda masalah awak, saya ada okay!",Thanks,Thanks,1,1
+18:36.8,saya sangat tertekan,"Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.",depression,depression,1,1
+18:41.5,saya rasa tertekean sangat harini,"Awak dah berjaya dengan langkah yang pertama. Ini adalah petanda yang bagus, awak sedang berusaha untuk mendapatkan bantuan.",depression,depression,1,1
+18:53.5,saya rasa sungguh tertekan,"Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.",depression,depression,1,1
+19:14.6,saya kehilangan diri saya,"Mungkin pemikiran awak memerlukan perhatian awak dan cara terbaik ialah memberi perhatian dan mengikutinya! Jika awak berada dalam masa yang sangat tertekan atau tidak menentu dalam hidup awak, maka cara terbaik adalah untuk memahami ketegangan awak rasa.",depression2,depression2,1,1
+19:25.5,saya nak cari diri saya ,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,depression2,0,0
+19:39.1,saya nak cari diri saya ,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,depression2,0,0
+19:44.1,saya nak cari diri saya semula,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,depression2,0,0
+19:49.4,saya tidak berharga,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,depression3,0,0
+20:45.3,saya tidak selesa dengan orang lain,Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam pengalaman ini!,anxiety,anxiety,1,1
+20:58.1,saya tidak berharga kepada semua orang,"Mengubah perasaan awak adalah sesuatu yang sukar, terutamanya sendiri. Pastikan awak mempunyai seseorang yang boleh awak percayai dan awak boleh bercakap dengannya tentang perasaan awak. Contohnya menjadi rakan atau ahli keluarga .",depression3,depression3,1,1
+21:06.4,saya nak kurangkan anxiety," Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk ""meramalkan yang paling teruk"" atau meramalkan masa depan. Saya nasihatkan awak membaca petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.",anxiety1,anxiety1,1,1
+21:14.5,saya nak bunuh diri,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,emergency,1,1
+22:14.7,saya nak kelar tangan,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,emergency,1,1
+22:35.5,saya ada anxiety ke?,"Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.",anxiety4,anxiety4,1,1
+22:57.3,macam mana nak tau score anxiety saya?,"Ya, awak boleh klik ujian GAD-7 pada bahagian menu dan mengetahui skor awak",GAD,GAD,1,1
+24:04.4,sayaa ada depression ke?,Sama-sama awak,Thanks,PHQ,0,0
+24:11.3,saya nak bunuh diri,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,emergency,1,1
+24:16.7,saya nak mengetahui saya adda anxiety ke?,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,emergency,1,1
+24:30.1,saya ada anxiety ke?,"Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.",anxiety4,anxiety4,1,1
+24:36.8,macam mana nak tau saya ada depression,"Ya, awak boleh klik ujian PHQ-9 pada bahagian menu dan mengetahui skor awak",PHQ,PHQ,1,1
+24:56.0,hello,"Hai awak, awak okay?",greetings,greetings,1,1
+25:12.4,saya nak terjun bangunan?,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,emergency,1,1
+25:19.6,macam mana nak kurangkan anxiety ?," Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk ""meramalkan yang paling teruk"" atau meramalkan masa depan. Saya nasihatkan awak membaca petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.",anxiety1,anxiety1,1,1
+25:29.8,saya tidak selesa dengan orang lain,Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam pengalaman ini!,anxiety,anxiety,1,1
+25:47.6,saya kurang selesa,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",emergency,anxiety,0,0
+25:52.7,saya kurang selesa di tempat awam,Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam pengalaman ini!,anxiety,anxiety,1,1
+25:59.8,saya risau tentang sesuatu,"Kebimbangan atau serangan panik boleh menjadi sangat menakutkan. Berikut ialah beberapa ""alat"" yang boleh awak gunakan yang akan membantu dalam jangka pendek: Menyibukkan fikiran awak dengan mendengar buku pada pita boleh membantu; Mengira ke belakang dari 100 dalam 7; Menamakan bawakr yang bermula dengan setiap huruf abjad; ",anxiety2,anxiety2,1,1
+26:27.9,saya bimbang tentang sesuatu,"Kebimbangan atau serangan panik boleh menjadi sangat menakutkan. Berikut ialah beberapa ""alat"" yang boleh awak gunakan yang akan membantu dalam jangka pendek: Menyibukkan fikiran awak dengan mendengar buku pada pita boleh membantu; Mengira ke belakang dari 100 dalam 7; Menamakan bawakr yang bermula dengan setiap huruf abjad; ",anxiety2,anxiety2,1,1
+,,,,,,
+,,,,,TOTAL ,40/50
+,,,,,80% Accuracy,

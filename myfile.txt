@@ -1,0 +1,274 @@
+User: Hello Assalamualaikum
+Chatbot: Hi, awak okay tak?
+User: goodbye
+Chatbot: Okay jumpa lagi!
+User: hello
+Chatbot: Adakah anda perlukan sebarang bantuan?
+User: saya macam stress
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: sedih
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: takpalah thank you
+Chatbot: Takda masalah awak, saya ada okay!
+User: good bye awak :)
+Chatbot: Okay jumpa lagi!
+User: saya dapat score 27 untuk ujian PHQ test
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: hello
+Chatbot: Hi, awak okay tak?
+User: goodbye
+Chatbot: Selamat Tinggal
+User: I am sedih
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: harini saya rasa marah
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: Hello
+Chatbot: Adakah anda perlukan sebarang bantuan?
+User: Hello
+Chatbot: Hi, awak okay tak?
+User: saya sedih sikit harini
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: Hello
+Chatbot: Adakah anda perlukan sebarang bantuan?
+User: hello
+Chatbot: Hi, awak okay tak?
+User: saya sedih la
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: helloo
+Chatbot: Okay baiklah
+User: salam
+Chatbot: Adakah anda perlukan sebarang bantuan?
+User: nama siapa ni?
+Chatbot: Nama saya, okBot
+User: harini saya rasa sedih
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: bye2
+Chatbot: Okay baiklah
+User: harini saya rasa sedih
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: siapa nama awak?
+Chatbot: okBot
+User: okay thank you okBot!
+Chatbot: Sama-sama awak
+User: hello2 :)
+Chatbot: Hai, apa khabar?
+User: nama apa ni?
+Chatbot: okBot
+User: okBot, thank you tau!
+Chatbot: Sama-sama awak
+User: harini saya rasa sedih la okBot
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: saya serabut je harini :(
+Chatbot: Saya faham dan saya mahu awak tahu bahawa saya benar-benar mengambil berat tentang awak.
+Boleh tak awak kongsikan mood awak harini? (sedih, gembira, marah, dll)
+User: kebelakangan ini saya rasa susah untuk tidur 
+Chatbot: Adakah anda perlukan sebarang bantuan?
+User: saya hampir tidak tidur
+Chatbot: Jika semua orang menganggap anda tidak berharga, maka mungkin anda perlu mencari orang baru untuk diajak bergaul.Seriusnya, konteks sosial di mana seseorang itu hidup adalah pengaruh besar dalam harga diri. Jika tidak, anda boleh berpusing-pusing mencuba fahami mengapa anda tidak bernilai, kemudian kembali kepada kumpulan yang sama dan tewas semula. Terdapat banyak mesej inspirasi yang boleh anda temui dalam media sosial. Mungkin membaca beberapa yang menyatakan bahawa tidak ada orang yang tidak berharga, dan setiap orang mempunyai tujuan yang baik untuk hidup mereka. Selain itu, kerana budaya kita begitu tepu dengan kepercayaan bahawa jika seseorang tidak berasa baik tentang diri mereka sendiri, ini entah bagaimana. dahsyat.Perasaan buruk adalah sebahagian daripada kehidupan. Mereka adalah motivasi untuk menjauhkan diri kita daripada situasi dan perhubungan yang lebih mendatangkan kemudaratan kepada kita daripada kebaikan. Perasaan buruk memang terasa mengerikan. Perasaan tidak berharga anda mungkin baik dalam erti kata memotivasikan anda untuk mengetahui bahawa anda jauh lebih baik daripada perasaan anda hari ini.
+User: I think I've lost myself
+Chatbot: The first step, which you've taken, is actually wanting to talk to someone. It's a great sign that you are seeking to reach out for help.
+User: I think I've lost myself
+Chatbot: Maybe your thoughts require your attention and the best course would be to pay attention and follow them!If you're in an especially stressful or uncertain time in your life, then the best way through is to understand the tension you feel
+User: I think I have depression
+Chatbot: Yes, you can click the PHQ-9 test on the menu section and find out your score
+User: I am very depressed
+Chatbot: The first step, which you've taken, is actually wanting to talk to someone. It's a great sign that you are seeking to reach out for help.
+User: How to change from feing worthless all the time?
+Chatbot: Changing your feelings is something that is difficult to do, especially on your own. Make sure that you have someone you can trust and you can talk to about how you feel. This can be a friend or a family member.
+User: I think I lost myself
+Chatbot: Maybe your thoughts require your attention and the best course would be to pay attention and follow them! If you're in an especially stressful or uncertain time in your life, then the best way through is to understand the tension you feel.
+User: I'm uncomfotable around people
+Chatbot: What you're experiencing is anxiety, it's actually quite common. Good news - you're not alone in this experience! That being said, it can be so frustrating and upsetting to have to contend with the anxious thoughts that come up in our heads, sometimes without any warning.
+User: How can I reduce my anxiety?
+Chatbot: Maybe your thoughts require your attention and the best course would be to pay attention and follow them! If you're in an especially stressful or uncertain time in your life, then the best way through is to understand the tension you feel.
+User: Best way to reduce anxiety?
+Chatbot:  Often, cognitive distortions are the problem. Some common cognitive distortions include catastrophizing (predicting the worst) AND  future telling. I would advise looking up CBT (cognitive behavioral therapy) tips, worksheets, booklets etc. on line, or contact a local CBT therapist.
+User: I'm worried about something.
+Chatbot: Anxiety or panic attacks can be very frightening. Here are a few "tools" you can use that will help in the short term: Keeping your mind occupied by listening to books on tape may help; Counting backwards from 100 in 7's; Naming cities that begin with each letter of the alphabet; 
+User: Do you know if I have depression?
+Chatbot: Yes, you can click the PHQ-9 test on the menu section and find out your score
+User: Do I have anxiety?
+Chatbot: Hello, and thank you for your question. First, I want you to know that you are certainly not alone on this issue.Everyone, at some point in time, has a fear of public embarrassment. But for many people, this fear can become so awful that it begins to have a real negative impact on their quality of life.They will try to avoid any situation that they even THINK will cause them embarrassment or anxiety.
+User: hi2
+Chatbot: Hai awak, awak okay?
+User: hellooooo
+Chatbot: Hei, apa khabar?
+User: siapa nama awak?
+Chatbot: Awak boleh panggil saya okay bot
+User: saya rasa sangat tertekan okBot :(
+Chatbot: Langkah pertama, yang telah awak ambil, sebenarnya ingin bercakap dengan seseorang. Ini adalah petanda yang bagus bahawa awak sedang berusaha untuk mendapatkan bantuan.
+User: Saya rasa kehilangan
+Chatbot: Hi, awak okay tak?
+User: Saya rasa kehilangan diri :(
+Chatbot: Mungkin pemikiran awak memerlukan perhatian awak dan cara terbaik ialah memberi perhatian dan mengikutinya! Jika awak berada dalam masa yang sangat tertekan atau tidak menentu dalam hidup awak, maka cara terbaik adalah untuk memahami ketegangan awak rasa.
+User: Saya rasa tidak berharga kepada orang lain
+Chatbot: Menukar perasaan awak adalah sesuatu yang sukar untuk dilakukan, terutamanya sendiri. Pastikan awak mempunyai seseorang yang boleh awak percayai dan awak boleh bercakap dengannya tentang perasaan awak. Ini boleh menjadi rakan atau ahli keluarga .
+User: Bolehkan saya tau sama ada saya kemunguran?
+Chatbot: Ya, awak boleh mengklik ujian PHQ-9 pada bahagian menu dan mengetahui skor awak
+User: Saya tidak selesa dengan orang lain di tempat awam
+Chatbot: Apa yang awak alami ialah kebimbangan, ia sebenarnya perkara biasa. Berita baik - awak tidak bersendirian dalam pengalaman ini! Apa yang dikatakan, ia boleh menjadi sangat mengecewakan dan menjengkelkan untuk menghadapi fikiran yang cemas yang terlintas dalam kepala kita, kadangkala tanpa sebarang amaran.
+User: Bagaiman cara untuk kurangkan kebimbangan?
+Chatbot:  Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk bencana (meramalkan yang paling teruk) DAN memberitahu masa depan. Saya akan menasihati mencari petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.
+User: Adakah saya mempunyai anxieyty?
+Chatbot: Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang Orang ramai, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka. Mereka akan cuba mengelakkan sebarang situasi yang mereka FIKIRkan akan menyebabkan mereka malu atau bimbang.
+User: saya tertekan!
+Chatbot: Awak dah berjaya dengan langkah yang pertama. Ini adalah petanda yang bagus, awak sedang berusaha untuk mendapatkan bantuan.
+User: macam mana nak tau saya ada depression?
+Chatbot: Ya, awak boleh mengklik ujian GAD-7 pada bahagian menu dan mengetahui skor awak
+User: saya tertekan!
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+User: macam mana nak tau saya ada depression?
+Chatbot: Ya, awak boleh mengklik ujian PHQ-9 pada bahagian menu dan mengetahui skor awak
+User: saya rasa kehilangan diri!
+Chatbot: Mungkin pemikiran awak memerlukan perhatian awak dan cara terbaik ialah memberi perhatian dan mengikutinya! Jika awak berada dalam masa yang sangat tertekan atau tidak menentu dalam hidup awak, maka cara terbaik adalah untuk memahami ketegangan awak rasa.
+User: Saya rasa tak berharga buat orang lain
+Chatbot: Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam pengalaman ini!
+User: macam mana nak kurangkan anxiety?
+Chatbot:  Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk bencana (meramalkan yang paling teruk) DAN memberitahu masa depan. Saya akan menasihati mencari petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.
+User: saya nak bunuh diri
+Chatbot: Mungkin pemikiran awak memerlukan perhatian awak dan cara terbaik ialah memberi perhatian dan mengikutinya! Jika awak berada dalam masa yang sangat tertekan atau tidak menentu dalam hidup awak, maka cara terbaik adalah untuk memahami ketegangan awak rasa.
+User: terjun bangunan
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Berikut ialah beberapa perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+3. Senarai nombor telefon kecemasan antarabangsa:  https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers
+User: saya nak bunuh diri
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Berikut ialah beberapa perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+3. Senarai nombor telefon kecemasan antarabangsa:  https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers
+User: saya nak kelar tangan
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Berikut ialah beberapa perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+3. Senarai nombor telefon kecemasan antarabangsa:  https://en.wikipedia.org/wiki/List_of_emergency_telephone_numbers
+User: helloooo
+Chatbot: Hi, awak okay tak?
+User: saya nak bunuh diri!
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+User: hellooo
+Chatbot: Hei, apa khabar?
+User: saya sangat tertekan harini!
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+User: saya rasa kehilangan diri
+Chatbot: Mungkin pemikiran awak memerlukan perhatian awak dan cara terbaik ialah memberi perhatian dan mengikutinya! Jika awak berada dalam masa yang sangat tertekan atau tidak menentu dalam hidup awak, maka cara terbaik adalah untuk memahami ketegangan awak rasa.
+User: macam mana nak hilangkan perasaan tidak berharga kepada semua orang?
+Chatbot: Mengubah perasaan awak adalah sesuatu yang sukar, terutamanya sendiri. Pastikan awak mempunyai seseorang yang boleh awak percayai dan awak boleh bercakap dengannya tentang perasaan awak. Contohnya menjadi rakan atau ahli keluarga .
+User: saya ada depression ke?
+Chatbot: Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.
+User: helloo
+Chatbot: Hai, apa khabar?
+User: harini saya rasa sangat tertekan!
+Chatbot: Awak dah berjaya dengan langkah yang pertama. Ini adalah petanda yang bagus, awak sedang berusaha untuk mendapatkan bantuan.
+User: saya sangat takut di tempat awam
+Chatbot: Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam pengalaman ini!
+User: macam mana nak kurangkan anxiety?
+Chatbot:  Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk "meramalkan yang paling teruk" atau meramalkan masa depan. Saya nasihatkan awak membaca petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.
+User: saya bimbang tentang sesuatu
+Chatbot: Kebimbangan atau serangan panik boleh menjadi sangat menakutkan. Berikut ialah beberapa "alat" yang boleh awak gunakan yang akan membantu dalam jangka pendek: Menyibukkan fikiran awak dengan mendengar buku pada pita boleh membantu; Mengira ke belakang dari 100 dalam 7; Menamakan bawakr yang bermula dengan setiap huruf abjad; 
+User: helloo ada orang tak?
+Chatbot: Hai awak, awak okay?
+User: siapa ni?
+Chatbot: Hai awak, awak okay?
+User: siapa nama awak?
+Chatbot: Awak boleh panggil saya okay bot
+User: okbot saya tertekan sangat harini!
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+User: saya depressed ke?
+Chatbot: Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.
+User: hello
+Chatbot: Hi, awak okay tak?
+User: saya rasa tertekan harini!
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+User: saya nak kelar tangan saya!
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+Chatbot: Hi, awak okay tak?
+Chatbot: Hei, apa khabar?
+Chatbot: Hi, awak okay tak?
+Chatbot: Hei, apa khabar?
+Chatbot: Hei, apa khabar?
+Chatbot: Hei, apa khabar?
+Chatbot: Hai awak, awak okay?
+Chatbot: Hai, apa khabar?
+Chatbot: Hi, awak okay tak?
+Chatbot: Hai, apa khabar?
+Chatbot: Adakah awak perlukan sebarang bantuan?
+Chatbot: Adakah awak perlukan sebarang bantuan?
+Chatbot: Hei, apa khabar?
+Chatbot: Hei, apa khabar?
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+Chatbot: Hei, apa khabar?
+Chatbot: Hai awak, awak okay?
+Chatbot: Hai awak, awak okay?
+Chatbot: Hai, apa khabar?
+Chatbot: Hai awak, awak okay?
+Chatbot: Hi, awak okay tak?
+Chatbot: Hei, apa khabar?
+Chatbot: Hi, awak okay tak?
+Chatbot: Awak dah berjaya dengan langkah yang pertama. Ini adalah petanda yang bagus, awak sedang berusaha untuk mendapatkan bantuan.
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Hi, awak okay tak?
+Chatbot: Awak boleh panggil saya okay bot
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.
+Chatbot: Hi, awak okay tak?
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Hi, awak okay tak?
+Chatbot: Hai awak, awak okay?
+Chatbot: Hi, awak okay tak?
+Chatbot: Hai awak, awak okay?
+Chatbot: Adakah awak perlukan sebarang bantuan?
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+Chatbot: OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)
+Chatbot: Hai awak, awak okay?
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Adakah awak perlukan sebarang bantuan?
+Chatbot: Hi, awak okay tak?
+Chatbot: Adakah awak perlukan sebarang bantuan?
+Chatbot: Hei, apa khabar?
+Chatbot: Hi, awak okay tak?
+Chatbot: Adakah awak perlukan sebarang bantuan?
+Chatbot: Hei, apa khabar?
+Chatbot: Adakah awak perlukan sebarang bantuan?
+Chatbot: Hi, awak okay tak?
+Chatbot: Hi, awak okay tak?
+Chatbot: Hai, apa khabar?
+Chatbot: Hai awak, awak okay?
+Chatbot: Hi, awak okay tak?
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Hei, apa khabar?
+Chatbot: Hai, apa khabar?
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Hei, apa khabar?
+Chatbot: Awak dah berjaya dengan langkah yang pertama. Ini adalah petanda yang bagus, awak sedang berusaha untuk mendapatkan bantuan.
+Chatbot: Hai awak, awak okay?
+Chatbot: Sama-sama awak
+Chatbot: Hai awak, awak okay?
+Chatbot: Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.
+Chatbot: Mungkin pemikiran awak memerlukan perhatian awak dan cara terbaik ialah memberi perhatian dan mengikutinya! Jika awak berada dalam masa yang sangat tertekan atau tidak menentu dalam hidup awak, maka cara terbaik adalah untuk memahami ketegangan awak rasa.
+Chatbot: Hi, awak okay tak?
+Chatbot: Awak dah berjaya dengan langkah yang pertama. Ini adalah petanda yang bagus, awak sedang berusaha untuk mendapatkan bantuan.
+Chatbot: Sama-sama awak

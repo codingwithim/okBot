@@ -1,0 +1,93 @@
+MDScreen:
+    name: "main"
+    bot_name: bot_name
+    MDFloatLayout:
+        md_bg_color: 51/255, 54/255, 82/255, 1 # main background color
+        Image:
+            source: "Images/logo.png"
+            opacity: 1
+            size_hint: .4, .4
+            pos_hint: {"center_x": .5, "center_y": .8}
+        MDLabel:
+            text: "H e l l o !"
+            font_name: "Fonts/Poppins-SemiBold.ttf"
+            font_size: "35sp"
+            pos_hint: {"center_x": .5, "center_y": .58}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+        MDLabel:
+            text: '"VERILY IN THE REMEMBRANCE OF ALLAH DO HEARTS FIND REST"'
+            size_hint_x: .9
+            font_name: "Poppins"
+            font_size: "18sp"
+            pos_hint: {"center_x": .5, "center_y": .45}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+        MDLabel:
+            text: "\n13:28"
+            font_name: "Poppins"
+            font_size: "14sp"
+            pos_hint: {"center_x": .5, "center_y": .40}
+            halign: "center"
+            underline: "True"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+        MDFloatLayout:
+            size_hint: .85, .08
+            pos_hint: {"center_x": .5, "center_y": .22}
+            canvas:
+                Color:
+                    rgb: (238/255, 238/255, 238/255, 1)
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [22, 22, 22, 22]
+            TextInput:
+                id: bot_name
+                hint_text: "Panggilan Nama"
+                size_hint: 1, None
+                pos_hint: {"center_x": .5, "center_y": .5}
+                font_size: "18sp"
+                height: self.minimum_height
+                cursor_color: 0, 0, 0, .3
+                cursor_width: "2sp"
+                foreground_color: 0, 0, 0, .8
+                background_color: 0, 0, 0, 0
+                padding: 15
+                font_name: "Poppins"
+
+        MDFloatLayout:
+            size_hint: .85, .08
+            pos_hint: {"center_x": .5, "center_y": .1}
+            canvas:
+                Color:
+                    rgba: (51/255, 54/255, 58/255, 1)
+                RoundedRectangle:
+                    size: self.size
+                    pos: self.pos
+                    radius: [22, 22, 22, 22]
+        Button:
+            text: ""
+            size_hint: .45, .08
+            pos_hint: {"center_x": .5, "center_y": .1}
+            background_color: 0, 0, 0, 0
+            on_release:
+                # app.send_data(bot_name)
+                app.bot_name()
+        MDLabel:
+            text: "Log Masuk"
+            halign: "center"
+            pos_hint: {"center_y": .1}
+            font_name: "Fonts/Poppins-SemiBold.ttf"
+            font_size: "12sp"
+            color: 1, 1, 1, 1
+        MDLabel:
+            text: "\n@2022 imranismael33@gmail.com"
+            font_name: "Poppins"
+            font_size: "9sp"
+            pos_hint: {"center_x": .5, "center_y": .04}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1

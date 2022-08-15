@@ -1,0 +1,87 @@
+MDScreen:
+    name:"main1"
+    bot_name: bot_name
+    password: password
+    MDFloatLayout:
+        md_bg_color: 51/255, 54/255, 82/255, 1 # main background color
+        Image:
+            source: "Images/logo.png"
+            opacity: 1
+            size_hint: .4, .4
+            pos_hint: {"center_x": .5, "center_y": .8}
+        MDLabel:
+            text: "H e l l o !"
+            font_name: "Fonts/Poppins-SemiBold.ttf"
+            font_size: "35sp"
+            pos_hint: {"center_x": .5, "center_y": .58}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+        MDLabel:
+            text: '"VERILY IN THE REMEMBRANCE OF ALLAH DO HEARTS FIND REST"'
+            size_hint_x: .9
+            font_name: "Poppins"
+            font_size: "18sp"
+            pos_hint: {"center_x": .5, "center_y": .45}
+            halign: "center"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+
+        MDTextField:
+            id: bot_name
+            color_mode: 'custom'
+            required: True
+            line_color_normal: 253/255, 253/255, 253/255, 1
+            line_color_focus: 253/255, 253/255, 253/255, 1
+            font_name: "Poppins"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+            hint_text: "Panggila Nama"
+            icon_right: "account"
+            size_hint_x: None
+            width: 200
+            font_size: 18
+            pos_hint: {"center_x": 0.5, "center_y": .33}
+
+        MDTextField:
+            id: password
+            required: True
+            color_mode: 'custom'
+            line_color_normal: 253/255, 253/255, 253/255, 1
+            line_color_focus: 253/255, 253/255, 253/255, 1
+            font_name: "Poppins"
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+            hint_text: "Kata Laluan"
+            icon_right: "eye-off"
+            size_hint_x: None
+            width: 200
+            font_size: 18
+            pos_hint: {"center_x": 0.5, "center_y": .25}
+            password: True
+
+        MDRectangleFlatButton:
+            text: "LOG MASUK"
+            font_size: 12
+            font_name: "Poppins"
+            size_hint: .4, None
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+            line_color_normal: 253/255, 253/255, 253/255, 1
+            pos_hint: {"center_x": 0.5, "center_y": 0.11}
+            on_press:
+                app.login(bot_name, password)
+
+
+        MDRectangleFlatButton:
+            text: "DAFTAR"
+            font_size: 12
+            font_name: "Poppins"
+            size_hint: .4, None
+            theme_text_color: "Custom"
+            text_color: 253/255, 253/255, 253/255, 1
+            line_color: 253/255, 253/255, 253/255, 1
+            pos_hint: {"center_x": 0.5, "center_y": 0.05}
+            on_press:
+                app.register(bot_name, password)
+
