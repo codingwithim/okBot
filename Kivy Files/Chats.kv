@@ -1,0 +1,170 @@
+<Command>
+    size_hint_y: None
+    pos_hint: {"right": .98}
+    height: self.texture_size[1]
+    padding: 12, 10
+    theme_text_color: "Custom"
+    text_color: 1, 1, 1, 1 # text colour of users input
+    canvas.before:
+        Color:
+            rgb: (51/255, 54/255, 58/255, 1) # Colour of users input rectangle rgb(24, 154, 180) rgb(65, 114, 159) rgb(51, 54, 58)
+        RoundedRectangle:
+            size: self.width, self.height
+            pos: self.pos
+            radius: [10, 10, 0, 10]
+<Response>
+    size_hint_y: None
+    pos_hint: {"X": .02}
+    height: self.texture_size[1]
+    padding: 12, 10
+    theme_text_color: "Custom"
+    text_color: 224/255, 224/255, 224/255, 1
+    canvas.before:
+        Color:
+            rgb: (108/255, 106/255, 97/255, 1) # Colour for response rectangle rgb(39, 68, 114) rgb(108, 106, 97)
+        RoundedRectangle:
+            size: self.width, self.height
+            pos: self.pos
+            radius: [10, 10, 10, 0]
+MDScreen:
+    bot_name: bot_name
+    text_input: text_input
+    chat_list: chat_list
+    name: "chats"
+    MDFloatLayout:
+        md_bg_color: 254/255, 254/255, 254/255, 1 # Colour for chat's background
+        MDFloatLayout:
+            md_bg_color: 212/255, 216/255, 232/255, 1
+            size_hint_y: .11
+            pos_hint: {"center_y": .95}
+            MDToolbar:
+                md_bg_color: 51/255, 54/255, 82/255, 1 # Color for top toolbar  rgb(5, 68, 94) or 51/255, 54/255, 82/255, 1
+                id: bot_name
+                text: ""
+                pos_hint: {"center_y": .5}
+                halign: "center"
+                font_name: "Poppins"
+                font_size: "15sp"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                left_action_items: [["menu", lambda x: nav_drawer.set_state("open")]]
+                elevation: 8
+            Widget:
+        ScrollView:
+            size_hint_y: .77
+            pos_hint: {"x": 0, "y": .116}
+            do_scroll_x: False
+            do_scroll_y:True
+            BoxLayout:
+                id: chat_list
+                orientation: 'vertical'
+                size: (root.width, root.height)
+                height: self.minimum_height
+                size_hint: None, None
+                pos_hint: {'top': 10}
+                cols: 1
+                spacing: 5
+        MDFloatLayout:
+            md_bg_color: 51/255, 54/255, 82/255, 1 # Colour for bottom toolbar background
+            size_hint_y: .11
+            MDFloatLayout:
+                size_hint: .8, .75
+                pos_hint: {"center_x": .43, "center_y": .5}
+                canvas:
+                    Color:
+                        rgb: (238/255, 238/255, 238/255, 1)
+                    RoundedRectangle:
+                        size: self.size
+                        pos: self.pos
+                        radius: [23, 23, 23, 23]
+                TextInput:
+                    id: text_input
+                    hint_text: "Taipkan sesuatu..."
+                    size_hint: 1, None
+                    pos_hint: {"center_x": .5, "center_y": .5}
+                    font_size: "18sp"
+                    height: self.minimum_height
+                    cursor_color: 51/255, 54/255, 82/255, 1
+                    cursor_width: "1sp"
+                    foreground_color: 51/255, 54/255, 82/255, 1
+                    background_color: 0, 0, 0, 0
+                    padding: 15
+                    font_name: "Poppins"
+            MDIconButton:
+                icon: "send"
+                pos_hint: {"center_x": .91, "center_y": .5}
+                user_font_size: "18sp"
+                theme_text_color: "Custom"
+                text_color: 1, 1, 1, 1
+                md_bg_color: 250/255, 208/255, 44/255, 1 # rgb(51, 54, 82) or rgb(250, 208, 44)
+                on_release: app.send(bot_name, text_input)
+
+        MDNavigationDrawer:
+            id: nav_drawer
+            md_bg_color: 51/255, 54/255, 82/255, 1
+            BoxLayout:
+                orientation: 'vertical'
+                spacing: '8dp'
+                padding: '8dp'
+                ScrollView:
+                    MDList:
+                        OneLineIconListItem:
+                            text: 'TENTANG APLIKASI INI'
+                            on_release:
+                                app.about()
+                            font_name: "Poppins"
+                            font_size: "15sp"
+                            theme_text_color: "Custom"
+                            text_color:  253/255, 253/255, 253/255, 1
+                            IconLeftWidget:
+                                icon: 'exclamation-thick'
+
+                        OneLineIconListItem:
+                            text: 'TALIAN BANTUAN'
+                            on_release:
+                                app.helpline()
+                            font_name: "Poppins"
+                            font_size: "15sp"
+                            theme_text_color: "Custom"
+                            text_color:  253/255, 253/255, 253/255, 1
+                            IconLeftWidget:
+                                icon: 'cellphone'
+
+                        OneLineIconListItem:
+                            text: 'UJIAN PHQ-9'
+                            on_release:
+                                app.phq()
+                                nav_drawer.set_state("close")
+                            font_name: "Poppins"
+                            font_size: "15sp"
+                            theme_text_color: "Custom"
+                            text_color:  253/255, 253/255, 253/255, 1
+                            IconLeftWidget:
+                                icon: 'chart-bar'
+
+                        OneLineIconListItem:
+                            text: 'UJIAN GAD-7'
+                            on_release:
+                                app.gad()
+                                nav_drawer.set_state("close")
+                            font_name: "Poppins"
+                            font_size: "15sp"
+                            theme_text_color: "Custom"
+                            text_color:  253/255, 253/255, 253/255, 1
+                            IconLeftWidget:
+                                icon: 'graph-outline'
+
+
+
+                        OneLineIconListItem:
+                            text: 'KELUAR APPLIKASI'
+                            pos_hint: {"center_y": .15}
+                            on_release:
+                                app.stop()
+                                nav_drawer.set_state("close")
+                            font_name: "Poppins"
+                            font_size: "15sp"
+                            theme_text_color: "Custom"
+                            text_color:  253/255, 253/255, 253/255, 1
+                            IconLeftWidget:
+                                icon: 'exit-to-app'

@@ -1,0 +1,69 @@
+DATE,INPUT,OUTPUT,USERNAME,INTENTS,ACTUAL INTENTS,TARGET,ACCURACY,,
+44723.9244,hello,Awak hendaklah sentiasa tenang,ImranIsmael,depression,greetings,0,0,,
+44723.92448,hello,Awak hendaklah sentiasa tenang,ImranIsmael,depression,greetings,0,0,,
+44723.92466,bye,Awak hendaklah sentiasa tenang,ImranIsmael,depression,greetings,0,0,,
+44723.92628,hello,"Hi, awak okay tak?",ImranIsmael,greetings,greetings,1,1,,
+44723.92639,hai,"Hai awak, awak okay?",ImranIsmael,greetings,greetings,1,1,,
+44723.92665,hi,"Hai, apa khabar?",ImranIsmael,greetings,greetings,1,1,,
+44723.92667,hey,Adakah awak perlukan sebarang bantuan?,ImranIsmael,greetings,greetings,1,1,,
+44723.92668,apa khabar?,"Hai, apa khabar?",ImranIsmael,greetings,greetings,1,1,,
+44723.92672,bye,Goodbye!,ImranIsmael,goodbye,goodbye,1,1,,
+44723.92675,jumpa lagi,Selamat Tinggal,ImranIsmael,goodbye,goodbye,1,1,,
+44723.92679,selamat tinggal,Okay jumpa lagi!,ImranIsmael,goodbye,goodbye,1,1,,
+44723.92683,goodbye,Okay jumpa lagi!,ImranIsmael,goodbye,goodbye,1,1,,
+44723.92685,siapa nama awak?,okBot,ImranIsmael,name,name,1,1,,
+44723.92691,siapa nama ni>,Awak boleh panggil saya okay bot,ImranIsmael,name,name,1,1,,
+44723.92695,nama awak apa?,Awak boleh panggil saya okay bot,ImranIsmael,name,name,1,1,,
+44723.927,thank you tau okBot,"Takda masalah awak, saya ada okay!",ImranIsmael,Thanks,Thanks,1,1,,
+44723.92705,thanks,"Takda masalah awak, saya ada okay!",ImranIsmael,Thanks,Thanks,1,1,,
+44723.92707,ty okBot,Sama-sama awak,ImranIsmael,Thanks,Thanks,1,1,,
+44723.92713,terima kasih okBot,"Takda masalah awak, saya ada okay!",ImranIsmael,Thanks,Thanks,1,1,,
+44723.9272,saya rasa sangat tertekan ,"Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.",ImranIsmael,depression,depression,1,1,,
+44723.92736,harini saya tertekean,"Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.",ImranIsmael,depression,depression,1,1,,
+44723.92747,saya tertekan,"Awak dah berjaya dengan langkah yang pertama. Ini adalah petanda yang bagus, awak sedang berusaha untuk mendapatkan bantuan.",ImranIsmael,depression,depression,1,1,,
+44723.92758,saya tertekan,"Hai, ini adalah permulaan yang baik ! Saya mengesyorkan awak mencari seseorang di kawasan awak yang bekerja dengan orang yang mengalami kemurungan.",ImranIsmael,depression,depression,1,1,,
+44723.92765,saya rasa seperti kehilangan diri saya,"Mungkin pemikiran awak memerlukan perhatian awak dan cara terbaik ialah memberi perhatian dan mengikutinya! Jika awak berada dalam masa yang sangat tertekan atau tidak menentu dalam hidup awak, maka cara terbaik adalah untuk memahami ketegangan awak rasa.",ImranIsmael,depression2,depression2,1,1,,
+44723.92776,saya rasa seperti tidak berharga kepada semua orang,"Mengubah perasaan awak adalah sesuatu yang sukar, terutamanya sendiri. Pastikan awak mempunyai seseorang yang boleh awak percayai dan awak boleh bercakap dengannya tentang perasaan awak. Contohnya menjadi rakan atau ahli keluarga .",ImranIsmael,depression3,depression3,1,1,,
+44723.92792,saya tidak berharga kepada semua orang!,"Mengubah perasaan awak adalah sesuatu yang sukar, terutamanya sendiri. Pastikan awak mempunyai seseorang yang boleh awak percayai dan awak boleh bercakap dengannya tentang perasaan awak. Contohnya menjadi rakan atau ahli keluarga .",ImranIsmael,depression3,depression3,1,1,,
+44723.92805,saya selalu mengidamkan kemurungan,Awak tertarik kepada kandungan yang menyedihkan dan negatif dan sukar untuk memahami sebabnya. Kadangkala kita  lakukan perkara yang pada zahirnya mungkin kelihatan bermasalah untuk melupakan sesuatu masalah lain,ImranIsmael,depression4,depression4,1,1,,
+44723.92822,saya tidak selesa di tempat awam,Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam hal ini!,ImranIsmael,anxiety,anxiety,1,1,,
+44723.92835,saya kuat nervous di tempat awam,Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam hal ini!,ImranIsmael,anxiety,anxiety,1,1,,
+44723.92847,saya tidak selesa dengan orang lain,Apa yang awak alami ialah kebimbangan (anxiety). Jangan risau awak tidak bersendirian dalam hal ini!,ImranIsmael,anxiety,anxiety,1,1,,
+44723.92903,bagaimana nak kurangkan anxiety ni okBot?," Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk ""meramalkan yang paling teruk"" atau meramalkan masa depan. Saya nasihatkan awak membaca petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.",ImranIsmael,anxiety1,anxiety1,1,1,,
+44723.92936,apakah cara untuk kurangkan kebimbangan?," Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk ""meramalkan yang paling teruk"" atau meramalkan masa depan. Saya nasihatkan awak membaca petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.",ImranIsmael,anxiety1,anxiety1,1,1,,
+44723.92948,apakah cara terbaik untuk kurangkan anxiety," Selalunya, herotan kognitif adalah masalahnya. Beberapa herotan kognitif yang biasa termasuk ""meramalkan yang paling teruk"" atau meramalkan masa depan. Saya nasihatkan awak membaca petua CBT (terapi tingkah laku kognitif), lembaran kerja, buku kecil dsb. dalam talian, atau hubungi ahli terapi CBT tempatan.",ImranIsmael,anxiety1,anxiety1,1,1,,
+44723.92967,saya bimbang tentang sesuatu,"Kebimbangan atau serangan panik boleh menjadi sangat menakutkan. Berikut ialah beberapa ""alat"" yang boleh awak gunakan yang akan membantu dalam jangka pendek: Menyibukkan fikiran awak dengan mendengar buku pada pita boleh membantu; Mengira ke belakang dari 100 dalam 7; Menamakan bawakr yang bermula dengan setiap huruf abjad; ",ImranIsmael,anxiety2,anxiety2,1,1,,
+44723.9298,saya banyak berfikir tentang sesuatu,"Kebimbangan atau serangan panik boleh menjadi sangat menakutkan. Berikut ialah beberapa ""alat"" yang boleh awak gunakan yang akan membantu dalam jangka pendek: Menyibukkan fikiran awak dengan mendengar buku pada pita boleh membantu; Mengira ke belakang dari 100 dalam 7; Menamakan bawakr yang bermula dengan setiap huruf abjad; ",ImranIsmael,anxiety2,anxiety2,1,1,,
+44723.92995,saya risau tentang sesuatu,"Kebimbangan atau serangan panik boleh menjadi sangat menakutkan. Berikut ialah beberapa ""alat"" yang boleh awak gunakan yang akan membantu dalam jangka pendek: Menyibukkan fikiran awak dengan mendengar buku pada pita boleh membantu; Mengira ke belakang dari 100 dalam 7; Menamakan bawakr yang bermula dengan setiap huruf abjad; ",ImranIsmael,anxiety2,anxiety2,1,1,,
+44723.93003,adakah saya ada anxiety?,"Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.",ImranIsmael,anxiety4,anxiety4,1,1,,
+44723.93014,adakah saya ada kebimbangan>,"Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.",ImranIsmael,anxiety4,anxiety4,1,1,,
+44723.93034,bolehkah saya tau jika saya ada depression?,"Ya, awak boleh klik ujian PHQ-9 pada bahagian menu dan mengetahui skor awak",ImranIsmael,PHQ,PHQ,1,1,,
+44723.9306,saya ada depression ke?,"Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.",ImranIsmael,anxiety4,PHQ,0,0,,
+44723.93066,macam mana nak kira score depression saya,"Ya, awak boleh klik ujian PHQ-9 pada bahagian menu dan mengetahui skor awak",ImranIsmael,PHQ,PHQ,1,1,,
+44723.93082,macam mana nak tau tahap depression saya,"Ya, awak boleh klik ujian PHQ-9 pada bahagian menu dan mengetahui skor awak",ImranIsmael,PHQ,PHQ,1,1,,
+44723.93091,saya ada anxiety ke?,"Helo, dan terima kasih atas soalan awak. Pertama, saya ingin awak tahu bahawa awak pastinya tidak bersendirian dalam isu ini. Semua orang, pada satu ketika tertentu, mempunyai ketakutan untuk dimalukan awam. Tetapi bagi kebanyakan orang, ketakutan ini boleh menjadi sangat mengerikan sehingga mula memberi kesan negatif yang nyata terhadap kualiti hidup mereka.",ImranIsmael,anxiety4,GAD,0,0,,
+44723.93106,mana mana nak tau kalau saya ada anxiety?,"Ya, awak boleh klik ujian GAD-7 pada bahagian menu dan mengetahui skor awak",ImranIsmael,GAD,GAD,1,1,,
+44723.93139,bolehkah saya mengetahui kalau saya ada anxiety?,"Ya, awak boleh klik ujian GAD-7 pada bahagian menu dan mengetahui skor awak",ImranIsmael,GAD,GAD,1,1,,
+44723.93156,saya nak bunuh diri,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",ImranIsmael,emergency,emergency,1,1,,
+44723.93168,saya rasa macam nak bunuh diri,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",ImranIsmael,emergency,emergency,1,1,,
+44723.93182,saya rasa nak terjun bangunan,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",ImranIsmael,emergency,emergency,1,1,,
+44723.93189,saya nak kelar tangan,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",ImranIsmael,emergency,emergency,1,1,,
+44723.93194,saya nak terjun,"OkBot mendapati situasi ini melebehi kebatasan okBot. Saya minta maaf ini terjadi pada awak. Berikut adalah perkara yang boleh anda lakukan: 
+1. Hubungi Befrienders Kuala Lumpur(03-76272929)
+2. Untuk kecemasan hubungi MERS (999)",ImranIsmael,emergency,emergency,1,1,,
+,,,,,,,,,
+,,,,,,TOTAL,45/50,,
+,,,,,,90% Accuracy,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,MODEL,CLASSES,AVERAGE WORD LENGTH,TOTAL UNIQUE WORDS,ACCURACY %
+,,,,,ARTIFICIAL NN,15,5.829268293,82,90
+,,,,,FEED FORWARD NN,15,5.829268293,82,80
