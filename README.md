@@ -1,5 +1,5 @@
 # ChatbotSystem
-Chatbot App for Mental Health in Bahasa Malaysia
+Chatbot App for Mental Health in Bahasa Malaysia (Python and Kivy)
 - NLTK for NLP, and TensorFlow/Keras and PyTorch for building the neural network.
 - For UI, the Kivy and KivyMD library are used
 
