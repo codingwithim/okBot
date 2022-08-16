@@ -8,6 +8,7 @@ Chatbot App for Mental Health in Bahasa Malaysia
 3) main.py - The whole chat application including GUI using Kivy
 4) Kivy Files - The different kivy files for different screens in the app
 5) PyTorch folder - Different frameworks for Neural Network using the same datasets (For Accuracy Comparison)
+6) Descriptive Statistic - Analysis of initial datasets in ipynb file
 
 Chatbot Demo:
 https://youtu.be/FfNAC5Gsg80
