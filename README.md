@@ -1,5 +1,7 @@
 # ChatbotSystem
 Chatbot App for Mental Health in Bahasa Malaysia
+- NLTK for NLP, and TensorFlow/Keras and PyTorch for building the neural network.
+- For UI, the Kivy and KivyMD library are used
 
 1) intents.json - Initial sets of patterns and responses
 2) training.py - The Neural Network Model/Training 
@@ -9,3 +11,5 @@ Chatbot App for Mental Health in Bahasa Malaysia
 
 Chatbot Demo:
 https://youtu.be/FfNAC5Gsg80
+
+![image](https://user-images.githubusercontent.com/111273105/184799065-1c126db6-6e56-4dac-8fb0-cec16be2c610.png)
