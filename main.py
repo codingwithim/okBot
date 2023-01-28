@@ -25,6 +25,7 @@ warnings.filterwarnings("ignore", category=np.VisibleDeprecationWarning)
 
 Window.size = (350, 650)
 
+
 # testing branch
 
 # KivyMD
@@ -47,12 +48,9 @@ class Response(MDLabel):
 # ML
 lemmatizer = WordNetLemmatizer()
 intents = json.loads(open('JSON_FILES/intents.json').read())
-
 words = pickle.load(open('pickle_files/words.pkl', 'rb'))
 classes = pickle.load(open('pickle_files/classes.pkl', 'rb'))
 model = load_model('chatbotmodel.h5')
-phq_total_score = 0
-gad_total_score = 0
 
 
 def clean_up_sentence(sentence):
@@ -76,7 +74,6 @@ def predict_class(sentence):
     res = model.predict(np.array([bow]))[0]
     ERROR_THRESHOLD = 0.25
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
-
     results.sort(key=lambda x: x[1], reverse=True)
     return_list = []
     for r in results:
@@ -92,6 +89,10 @@ def get_response(intents_list, intents_json):
             result = random.choice(i['responses'])
             break
     return result
+
+
+phq_total_score = 0
+gad_total_score = 0
 
 
 class OkBot(MDApp):
@@ -139,24 +140,22 @@ class OkBot(MDApp):
     def main(self):
         screen_manager.current = "main"
 
-
     def bot_name(self):
         screen_manager.current = "chats"
 
     def login(self, bot_name, password):
-        self.c.execute("SELECT * FROM accounts")
-        username = []
-        for i in self.c.fetchall():
-            username.append(i[0])
-        if bot_name.text in username and bot_name.text != "":
-            self.c.execute(f"select pwd from accounts where uname='{bot_name.text}'")
-            for j in self.c:
-                if password.text == j[0]:
-                    print("Logged in!")
-                    screen_manager.current = "chats"
-                else:
-                    self.invalidDialog()
-                    screen_manager.current = "main"
+        self.c.execute("SELECT pwd FROM accounts WHERE uname = ?", (bot_name.text,))
+        result = self.c.fetchone()
+        if result:
+            if password.text == result[0]:
+                print("Logged in!")
+                screen_manager.current = "chats"
+            else:
+                self.invalidDialog()
+                screen_manager.current = "main"
+        else:
+            self.invalidDialog()
+            screen_manager.current = "main"
 
     def invalidDialog(self):
         if not self.dialog_login:
@@ -172,6 +171,9 @@ class OkBot(MDApp):
                 ],
             )
         self.dialog_login.open()
+
+    def close_dialog_login(self, obj):
+        self.dialog_login.dismiss()
 
     def register(self, bot_name, password):
         try:
@@ -226,86 +228,76 @@ class OkBot(MDApp):
             Clock.schedule_once(self.response, 3)
             screen_manager.get_screen('chats').text_input.text = ""
 
-
     def phq_score(self, checkbox, value, score):
         global phq_total_score
-        current_score = score
-        if score == 0 and checkbox.state == "down":
-            phq_total_score += current_score
-        if score == 1 and checkbox.state == "down":
-            phq_total_score += current_score
-        if score == 2 and checkbox.state == "down":
-            phq_total_score += current_score
-        if score == 3 and checkbox.state == "down":
-            phq_total_score += current_score
+        if checkbox.state == "down":
+            phq_total_score += score
 
-    def gad_score(self, checkbox, value, x):
-        global gad_total_score
-        if x == 0 and checkbox.state == "down":
-            gad_total_score += x
-        if x == 1 and checkbox.state == "down":
-            gad_total_score += x
-        if x == 2 and checkbox.state == "down":
-            gad_total_score += x
-        if x == 3 and checkbox.state == "down":
-            gad_total_score += x
-
-    def show_alert_dialog(self):
+    def show_alert_phq(self):
         phq_score = phq_total_score
-        if 1 <= phq_score <= 4:
-            test_result = "Tahniah, awak dalam kategori depressi minimum. Saya berharap agar awak dapat terus konsisten dalam menjalani hidup awak! "
-        if 5 <= phq_score <= 9:
-            test_result = "Anda mengalami depresi di tahap rendah. Saya berharap ia tidak menggangu kehidupan seharian awak. Walaubagaimanapun, saya pasti apa yang awak alami sekarang membuatkan awak rasa tidak selesa. Apa yang boleh okBot syorkan sekarang, bergerak dan ambil masa 10 minit untuk berjalan di luar, rasa angin sepoi di luar."
-        if 10 <= phq_score <= 14:
-            test_result = "Anda mengalami depresi di tahap serdahana. Saya tahu bukan mudah untuk terima dan alami semua benda ini. Awak rasa sedih, penat tak bermaya, susah nak fokus pada sesuatu benda. Tapi saya nak ingatkan awak satu benda, dengan menggunakan Ok-bot ini ialah salah satu tanda yang awak ingin tolong diri sendiri. Tahniah! Perkara ini bukan mudah tapi awak sudah lakukan satu step kehadapan"
-        if 15 <= phq_score <= 19:
-            test_result = "Anda mengalami depresi di tahap serdahana teruk. Saya tahu bukan mudah untuk terima dan alami semua benda ini. Awak rasa sedih, penat tak bermaya, susah nak fokus pada sesuatu benda. Tapi saya nak ingatkan awak satu benda, dengan menggunakan Ok-bot ini ialah salah satu tanda yang awak ingin tolong diri sendiri. Tahniah! Perkara ini bukan mudah tapi awak sudah lakukan satu step kehadapan"
-        if 20 <= phq_score <= 27:
-            test_result = "Anda mengalami depresi di tahap teruk. Saya tahu bukan mudah untuk terima dan alami semua benda ini. Awak rasa sedih, penat tak bermaya, susah nak fokus pada sesuatu benda. Tapi saya nak ingatkan awak satu benda, dengan menggunakan Ok-bot ini ialah salah satu tanda yang awak ingin tolong diri sendiri. Tahniah! Perkara ini bukan mudah tapi awak sudah lakukan satu step kehadapan"
+        phq_test_result = self.calculate_phq_score(phq_score)
         if not self.dialog:
             self.dialog = MDDialog(
-                text="Skor PHQ-9: " + str(phq_score) + "\n" + test_result,
+                text="Skor PHQ-9: " + str(phq_score) + "\n" + str(phq_test_result),
                 size_hint=[0.9, None],
                 buttons=[
                     MDFlatButton(
                         text="Tutup",
-                        on_release=self.close_dialog
+                        on_release=self.close_dialog_phq
                     ),
                 ],
             )
         self.dialog.open()
 
-    def show_alert_dialogs(self):
-        gad_score = gad_total_score
-        if 0 <= gad_score <= 4:
-            test_result = "Anda dalam kategori anxiety minimum"
-        if 5 <= gad_score <= 9:
-            test_result = "Anda mengalami anxiety di tahap rendah"
-        if 10 <= gad_score <= 14:
-            test_result = "Anda mengalami anxiety di tahap serdahana"
-        if 15 <= gad_score <= 21:
-            test_result = "Anda mengalami anxiety di tahap teruk"
+    def calculate_phq_score(self, phq_score):
+        if 1 <= phq_score <= 4:
+            return "Tahniah, awak dalam kategori depressi minimum. Saya berharap agar awak dapat terus konsisten dalam menjalani hidup awak! "
+        if 5 <= phq_score <= 9:
+            return "Anda mengalami depresi di tahap rendah. Saya berharap ia tidak menggangu kehidupan seharian awak. Walaubagaimanapun, saya pasti apa yang awak alami sekarang membuatkan awak rasa tidak selesa. Apa yang boleh okBot syorkan sekarang, bergerak dan ambil masa 10 minit untuk berjalan di luar, rasa angin sepoi di luar."
+        if 10 <= phq_score <= 14:
+            return "Anda mengalami depresi di tahap serdahana. Saya tahu bukan mudah untuk terima dan alami semua benda ini. Awak rasa sedih, penat tak bermaya, susah nak fokus pada sesuatu benda. Tapi saya nak ingatkan awak satu benda, dengan menggunakan Ok-bot ini ialah salah satu tanda yang awak ingin tolong diri sendiri. Tahniah! Perkara ini bukan mudah tapi awak sudah lakukan satu step kehadapan"
+        if 15 <= phq_score <= 19:
+            return "Anda mengalami depresi di tahap serdahana teruk. Saya tahu bukan mudah untuk terima dan alami semua benda ini. Awak rasa sedih, penat tak bermaya, susah nak fokus pada sesuatu benda. Tapi saya nak ingatkan awak satu benda, dengan menggunakan Ok-bot ini ialah salah satu tanda yang awak ingin tolong diri sendiri. Tahniah! Perkara ini bukan mudah tapi awak sudah lakukan satu step kehadapan"
+        if 20 <= phq_score <= 27:
+            return "Anda mengalami depresi di tahap teruk. Saya tahu bukan mudah untuk terima dan alami semua benda ini. Awak rasa sedih, penat tak bermaya, susah nak fokus pada sesuatu benda. Tapi saya nak ingatkan awak satu benda, dengan menggunakan Ok-bot ini ialah salah satu tanda yang awak ingin tolong diri sendiri. Tahniah! Perkara ini bukan mudah tapi awak sudah lakukan satu step kehadapan"
+
+    def close_dialog_phq(self, obj):
+        self.dialog.dismiss()
+
+    def gad_score(self, checkbox, value, x):
+        global gad_total_score
+        if checkbox.state == "down":
+            gad_total_score += x
+
+    def show_alert_gad(self):
+        score = gad_total_score
+        gad_test_result = self.calculate_gad_score(score)
         if not self.dialogs:
             self.dialogs = MDDialog(
-                text="Skor GAD-7: " + str(gad_total_score) + "\n" + test_result,
+                text="Skor GAD-7: " + str(score) + "\n" + str(gad_test_result),
                 size_hint=[0.9, None],
                 buttons=[
                     MDFlatButton(
                         text="Tutup",
-                        on_release=self.close_dialogs
+                        on_release=self.close_dialog_gad
                     ),
                 ],
             )
         self.dialogs.open()
 
-    def close_dialog(self, obj):
-        self.dialog.dismiss()
+    def calculate_gad_score(self, score):
+        if 0 <= score <= 4:
+            return "Anda dalam kategori anxiety minimum"
+        if 5 <= score <= 9:
+            return "Anda mengalami anxiety di tahap rendah"
+        if 10 <= score <= 14:
+            return "Anda mengalami anxiety di tahap serdahana"
+        if 15 <= score <= 21:
+            return "Anda mengalami anxiety di tahap teruk"
 
-    def close_dialogs(self, obj):
+    def close_dialog_gad(self, obj):
         self.dialogs.dismiss()
 
-    def close_dialog_login(self, obj):
-        self.dialog_login.dismiss()
 
 if __name__ == '__main__':
     LabelBase.register(name="Poppins", fn_regular="Fonts/Poppins-Regular.ttf")
