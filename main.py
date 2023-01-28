@@ -46,10 +46,10 @@ class Response(MDLabel):
 
 # ML
 lemmatizer = WordNetLemmatizer()
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('JSON_FILES/intents.json').read())
 
-words = pickle.load(open('words.pkl', 'rb'))
-classes = pickle.load(open('classes.pkl', 'rb'))
+words = pickle.load(open('pickle_files/words.pkl', 'rb'))
+classes = pickle.load(open('pickle_files/classes.pkl', 'rb'))
 model = load_model('chatbotmodel.h5')
 phq_total_score = 0
 gad_total_score = 0
