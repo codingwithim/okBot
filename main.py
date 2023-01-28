@@ -128,8 +128,7 @@ class OkBot(MDApp):
     def build(self):
         global screen_manager
         screen_manager = ScreenManager()
-
-        screen_manager.add_widget(Builder.load_file("Kivy Files/main1.kv"))
+        screen_manager.add_widget(Builder.load_file("Kivy Files/main.kv"))
         screen_manager.add_widget(Builder.load_file("Kivy Files/Chats.kv"))
         screen_manager.add_widget(Builder.load_file("Kivy Files/phq.kv"))
         screen_manager.add_widget(Builder.load_file("Kivy Files/gad.kv"))
@@ -137,8 +136,8 @@ class OkBot(MDApp):
         screen_manager.add_widget(Builder.load_file("Kivy Files/helpline.kv"))
         return screen_manager
 
-    def main1(self):
-        screen_manager.current = "main1"
+    def main(self):
+        screen_manager.current = "main"
 
 
     def bot_name(self):
@@ -157,7 +156,7 @@ class OkBot(MDApp):
                     screen_manager.current = "chats"
                 else:
                     self.invalidDialog()
-                    screen_manager.current = "main1"
+                    screen_manager.current = "main"
 
     def invalidDialog(self):
         if not self.dialog_login:
@@ -180,7 +179,7 @@ class OkBot(MDApp):
             self.conn.commit()
             screen_manager.current = "chats"
         except:
-            screen_manager.current = "main1"
+            screen_manager.current = "main"
 
     def phq(self):
         screen_manager.current = "phq"
