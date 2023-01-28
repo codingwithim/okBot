@@ -128,32 +128,19 @@ class OkBot(MDApp):
         global screen_manager
         screen_manager = ScreenManager()
 
-        screen_manager.add_widget(Builder.load_file("main1.kv"))
-        # screen_manager.add_widget(Builder.load_file("Main.kv"))
-        screen_manager.add_widget(Builder.load_file("Chats.kv"))
-        screen_manager.add_widget(Builder.load_file("phq.kv"))
-        screen_manager.add_widget(Builder.load_file("gad.kv"))
-        # screen_manager.add_widget(Builder.load_file("mood.kv"))
-        screen_manager.add_widget(Builder.load_file("about.kv"))
-        screen_manager.add_widget(Builder.load_file("helpline.kv"))
-        # screen_manager.add_widget(Builder.load_file("login.kv"))
+        screen_manager.add_widget(Builder.load_file("Kivy Files/main1.kv"))
+        screen_manager.add_widget(Builder.load_file("Kivy Files/Chats.kv"))
+        screen_manager.add_widget(Builder.load_file("Kivy Files/phq.kv"))
+        screen_manager.add_widget(Builder.load_file("Kivy Files/gad.kv"))
+        screen_manager.add_widget(Builder.load_file("Kivy Files/about.kv"))
+        screen_manager.add_widget(Builder.load_file("Kivy Files/helpline.kv"))
         return screen_manager
-
-    # def main(self):
-    #     screen_manager.current = "main"
 
     def main1(self):
         screen_manager.current = "main1"
 
-    # def login(self):
-    #     screen_manager.current = "login"
-
-    # def mood(self):
-    #     screen_manager.current = "mood"
 
     def bot_name(self):
-        # self.c.execute(f"insert into accounts values('{bot_name.text}','{password.text} )")
-        # self.conn.commit()
         screen_manager.current = "chats"
 
     def login(self, bot_name, password):
@@ -210,7 +197,6 @@ class OkBot(MDApp):
         ints = predict_class(value)
         response = get_response(ints, intents)
         screen_manager.get_screen('chats').chat_list.add_widget(Response(text=response, size_hint_x=.75))
-        # return response
 
     def send(self, bot_name, text_input):
         global size, halign, value
@@ -320,7 +306,6 @@ class OkBot(MDApp):
 
     def close_dialog_login(self, obj):
         self.dialog_login.dismiss()
-
 
 if __name__ == '__main__':
     LabelBase.register(name="Poppins", fn_regular="Fonts/Poppins-Regular.ttf")

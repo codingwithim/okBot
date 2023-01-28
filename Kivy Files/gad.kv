@@ -1,0 +1,390 @@
+MDScreen:
+    name: "gad"
+    ScrollView:
+        MDGridLayout:
+            md_bg_color: 233/255, 234/255, 236/255, 1
+            cols:1
+            size_hint_y: None
+            adaptive_height: True
+            font_name: "Poppins"
+            font_size: 11
+            MDToolbar:
+                md_bg_color: 51/255, 54/255, 82/255, 1 # Color for top toolbar  rgb(5, 68, 94) or 51/255, 54/255, 82/255, 1
+                id: bot_name
+                text: ""
+                pos_hint: {"center_y": .5}
+                halign: "center"
+                left_action_items: [["backspace", lambda x: app.bot_name()]]
+                elevation: 8
+            MDLabel:
+                bold: True
+                font_style: "H5"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "Ujian GAD-7"
+                size_hint_y: None
+                height: self.texture_size[1]
+            MDLabel:
+                bold: True
+                font_style: "H6"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "1. Berasa tidak senang, bimbang atau resah"
+                size_hint_y: None
+                height: self.texture_size[1]
+            GridLayout:
+                cols: 2
+                row_default_height: '48dp'
+                row_force_default: True
+                spacing: 10, 10
+                padding: 10, 10
+                size_hint_y: None
+                height: self.minimum_height
+                MDLabel:
+                    text: "Tidak sama sekali(0)"
+                MDCheckbox:
+                    group: "group11"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 0)
+                MDLabel:
+                    text: "Beberapa hari(1)"
+                MDCheckbox:
+                    group: "group11"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 1)
+                MDLabel:
+                    text: "Lebih daripada separuh hari(2)"
+                MDCheckbox:
+                    group: "group11"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 2)
+                MDLabel:
+                    text: "Hampir setiap hari(3)"
+                MDCheckbox:
+                    group: "group11"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 3)
+            MDLabel:
+                bold: True
+                font_style: "H6"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "2. Tidak mampu untuk berhenti daripada atau mengawal rasa bimbang"
+                text_color: 51/255, 54/255, 82/255, 1
+                size_hint_y: None
+                height: self.texture_size[1]
+            GridLayout:
+                cols: 2
+                row_default_height: '48dp'
+                row_force_default: True
+                spacing: 10, 10
+                padding: 10, 10
+                size_hint_y: None
+                height: self.minimum_height
+                MDLabel:
+                    text: "Tidak sama sekali(0)"
+                MDCheckbox:
+                    group: "group22"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_state:
+                        app.gad_score(*args, 0)
+                MDLabel:
+                    text: "Beberapa hari(1)"
+                MDCheckbox:
+                    group: "group22"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 1)
+                MDLabel:
+                    text: "Lebih daripada separuh hari(2)"
+                MDCheckbox:
+                    group: "group22"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 2)
+                MDLabel:
+                    text: "Hampir setiap hari(3)"
+                MDCheckbox:
+                    group: "group22"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 3)
+            MDLabel:
+                bold: True
+                font_style: "H6"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "3. Terlalu banyak berasa bimbang mengenai berbagai perkara"
+                text_color: 51/255, 54/255, 82/255, 1
+                size_hint_y: None
+                height: self.texture_size[1]
+            GridLayout:
+                cols: 2
+                row_default_height: '48dp'
+                row_force_default: True
+                spacing: 10, 10
+                padding: 10, 10
+                size_hint_y: None
+                height: self.minimum_height
+                MDLabel:
+                    text: "Tidak sama sekali(0)"
+                MDCheckbox:
+                    group: "group33"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_state:
+                        app.gad_score(*args, 0)
+                MDLabel:
+                    text: "Beberapa hari(1)"
+                MDCheckbox:
+                    group: "group33"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 1)
+                MDLabel:
+                    text: "Lebih daripada separuh hari(2)"
+                MDCheckbox:
+                    group: "group33"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 2)
+                MDLabel:
+                    text: "Hampir setiap hari(3)"
+                MDCheckbox:
+                    group: "group33"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 3)
+            MDLabel:
+                bold: True
+                font_style: "H6"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "4. Sukar untuk relaks"
+                text_color: 51/255, 54/255, 82/255, 1
+                size_hint_y: None
+                height: self.texture_size[1]
+            GridLayout:
+                cols: 2
+                row_default_height: '48dp'
+                row_force_default: True
+                spacing: 10, 10
+                padding: 10, 10
+                size_hint_y: None
+                height: self.minimum_height
+                MDLabel:
+                    text: "Tidak sama sekali(0)"
+                MDCheckbox:
+                    group: "group44"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_state:
+                        app.gad_score(*args, 0)
+                MDLabel:
+                    text: "Beberapa hari(1)"
+                MDCheckbox:
+                    group: "group44"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 1)
+                MDLabel:
+                    text: "Lebih daripada separuh hari(2)"
+                MDCheckbox:
+                    group: "group44"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 2)
+                MDLabel:
+                    text: "Hampir setiap hari(3)"
+                MDCheckbox:
+                    group: "group44"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 3)
+            MDLabel:
+                bold: True
+                font_style: "H6"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "5. Menjadi terlalu gelisah sehinggakan payah untuk duduk diam"
+                text_color: 51/255, 54/255, 82/255, 1
+                size_hint_y: None
+                height: self.texture_size[1]
+            GridLayout:
+                cols: 2
+                row_default_height: '48dp'
+                row_force_default: True
+                spacing: 10, 10
+                padding: 10, 10
+                size_hint_y: None
+                height: self.minimum_height
+                MDLabel:
+                    text: "Tidak sama sekali(0)"
+                MDCheckbox:
+                    group: "group55"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_state:
+                        app.gad_score(*args, 0)
+                MDLabel:
+                    text: "Beberapa hari(1)"
+                MDCheckbox:
+                    group: "group55"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 1)
+                MDLabel:
+                    text: "Lebih daripada separuh hari(2)"
+                MDCheckbox:
+                    group: "group55"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 2)
+                MDLabel:
+                    text: "Hampir setiap hari(3)"
+                MDCheckbox:
+                    group: "group55"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 3)
+            MDLabel:
+                bold: True
+                font_style: "H6"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "6. Menjadi mudah naik berang atau lekas marah"
+                text_color: 51/255, 54/255, 82/255, 1
+                size_hint_y: None
+                height: self.texture_size[1]
+            GridLayout:
+                cols: 2
+                row_default_height: '48dp'
+                row_force_default: True
+                spacing: 10, 10
+                padding: 10, 10
+                size_hint_y: None
+                height: self.minimum_height
+                MDLabel:
+                    text: "Tidak sama sekali(0)"
+                MDCheckbox:
+                    group: "group66"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_state:
+                        app.gad_score(*args, 0)
+                MDLabel:
+                    text: "Beberapa hari(1)"
+                MDCheckbox:
+                    group: "group66"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 1)
+                MDLabel:
+                    text: "Lebih daripada separuh hari(2)"
+                MDCheckbox:
+                    group: "group66"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 2)
+                MDLabel:
+                    text: "Hampir setiap hari(3)"
+                MDCheckbox:
+                    group: "group66"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 3)
+            MDLabel:
+                bold: True
+                font_style: "H6"
+                theme_text_color: "Custom"
+                text_color: 51/255, 54/255, 82/255, 1
+                padding: 12, 40
+                text: "7. Berasa takut seolah-olah sesuatu yang sangat buruk mungkin berlaku"
+                text_color: 51/255, 54/255, 82/255, 1
+                size_hint_y: None
+                height: self.texture_size[1]
+            GridLayout:
+                cols: 2
+                row_default_height: '48dp'
+                row_force_default: True
+                spacing: 10, 10
+                padding: 10, 10
+                size_hint_y: None
+                height: self.minimum_height
+                MDLabel:
+                    text: "Tidak sama sekali(0)"
+                MDCheckbox:
+                    group: "group77"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_state:
+                        app.gad_score(*args, 0)
+                MDLabel:
+                    text: "Beberapa hari(1)"
+                MDCheckbox:
+                    group: "group77"
+                    color: 51/255, 54/255, 82/255, 1
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    on_active:
+                        app.gad_score(*args, 1)
+                MDLabel:
+                    text: "Lebih daripada separuh hari(2)"
+                MDCheckbox:
+                    group: "group77"
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    color: 51/255, 54/255, 82/255, 1
+                    on_active:
+                        app.gad_score(*args, 2)
+                MDLabel:
+                    text: "Hampir setiap hari(3)"
+                MDCheckbox:
+                    group: "group77"
+                    selected_color: 250/255, 208/255, 44/255, 1
+                    color: 51/255, 54/255, 82/255, 1
+                    on_active:
+                        app.gad_score(*args, 3)
+                GridLayout:
+                    cols:2
+                    padding: "15dp"
+                    spacing: "20dp"
+                    MDRaisedButton:
+                        text: "Keputusan"
+                        pos_hint: {'center_x': .5, 'center_y': .5}
+                        on_release: app.show_alert_dialogs()
+                        md_bg_color: 51/255, 54/255, 82/255, 1
+                    MDRaisedButton:
+                        text: "Kembali berbual"
+                        pos_hint: {'center_x': .5, 'center_y': .65}
+                        on_release: app.bot_name()
+                        md_bg_color: 51/255, 54/255, 82/255, 1
