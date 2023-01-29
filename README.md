@@ -7,7 +7,7 @@ To run this project, you will need the following:
 
     Python 3.6 or above
     kivy 2.0.0
-    kivymd=0.104.1
+    kivymd 0.104.1
     TensorFlow 2.4.0 or above
     NLTK 3.6.7
     Numpy 1.18.5 or above
@@ -35,6 +35,13 @@ You can install these packages by running the following command:
 * training.py: script for training the model using neural network
 * main.py: script for running the chatbot
 chatbotmodel.h5: trained model file
+
+## Build With
+* PyCharm 2021.3 (Community Edition)
+* Python
+* TensorFlow
+* NLTK
+* Kivy and KivyMD
 
 ## References
 
