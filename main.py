@@ -205,24 +205,15 @@ class OkBot(MDApp):
         if screen_manager.get_screen('chats').text_input != "":
             now = datetime.datetime.now()
             value = screen_manager.get_screen('chats').text_input.text
-            if len(value) < 6:
-                size = .22
-                halign = "center"
-            elif len(value) < 11:
-                size = .32
-                halign = "center"
-            elif len(value) < 16:
-                size = .45
-                halign = "center"
-            elif len(value) < 21:
-                size = .58
-                halign = "center"
-            elif len(value) < 26:
-                size = .71
-                halign = "center"
-            else:
-                size = .71
-                halign = "left"
+            size_halign = {
+                6: (0.22, 'center'),
+                11: (0.32, 'center'),
+                16: (0.45, 'center'),
+                21: (0.58, 'center'),
+                26: (0.71, 'center'),
+                float('inf'): (0.71, 'left')
+            }
+            size, halign = next((size, halign) for len_, (size, halign) in size_halign.items() if len_ > len(value))
             screen_manager.get_screen('chats').chat_list.add_widget(
                 Command(text=value, size_hint_x=size, halign=halign))
             Clock.schedule_once(self.response, 3)
