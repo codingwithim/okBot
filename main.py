@@ -54,12 +54,14 @@ model = load_model('chatbotmodel.h5')
 
 
 def clean_up_sentence(sentence):
+    """Cleans up the sentence by tokenizing and lemmatizing words"""
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
     return sentence_words
 
 
 def bag_of_words(sentence):
+    """Converts a sentence into a bag-of-words representation"""
     sentence_words = clean_up_sentence(sentence)
     bag = [0] * len(words)
     for w in sentence_words:
@@ -70,6 +72,7 @@ def bag_of_words(sentence):
 
 
 def predict_class(sentence):
+    """Predicts the class of a sentence using a trained model"""
     bow = bag_of_words(sentence)
     res = model.predict(np.array([bow]))[0]
     ERROR_THRESHOLD = 0.25
@@ -128,7 +131,9 @@ class OkBot(MDApp):
 
     def build(self):
         global screen_manager
+        # Create a global variable 'screen_manager' that is an instance of ScreenManager.
         screen_manager = ScreenManager()
+        # Add each Kivy file to the screen manager as a widget.
         screen_manager.add_widget(Builder.load_file("Kivy Files/main.kv"))
         screen_manager.add_widget(Builder.load_file("Kivy Files/Chats.kv"))
         screen_manager.add_widget(Builder.load_file("Kivy Files/phq.kv"))
@@ -144,6 +149,9 @@ class OkBot(MDApp):
         screen_manager.current = "chats"
 
     def login(self, bot_name, password):
+        global username
+        username = bot_name.text
+        print(username)
         self.c.execute("SELECT pwd FROM accounts WHERE uname = ?", (bot_name.text,))
         result = self.c.fetchone()
         if result:
@@ -195,10 +203,12 @@ class OkBot(MDApp):
     def helpline(self):
         screen_manager.current = "helpline"
 
-    def response(self, *args):
+    def response(self, user_name, *args):
         ints = predict_class(value)
         response = get_response(ints, intents)
         screen_manager.get_screen('chats').chat_list.add_widget(Response(text=response, size_hint_x=.75))
+        self.c.execute(f"insert into CHAT values('{value}','{response}','{user_name}')")
+        self.conn.commit()
 
     def send(self, bot_name, text_input):
         global size, halign, value
@@ -216,7 +226,7 @@ class OkBot(MDApp):
             size, halign = next((size, halign) for len_, (size, halign) in size_halign.items() if len_ > len(value))
             screen_manager.get_screen('chats').chat_list.add_widget(
                 Command(text=value, size_hint_x=size, halign=halign))
-            Clock.schedule_once(self.response, 3)
+            Clock.schedule_once(lambda dt: self.response(username), 3)
             screen_manager.get_screen('chats').text_input.text = ""
 
     def phq_score(self, checkbox, value, score):
